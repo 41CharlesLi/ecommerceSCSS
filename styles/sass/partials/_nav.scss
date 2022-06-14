@@ -24,10 +24,12 @@
     top: 0; //sticks when it reaches 0px at the top
     border-top: 1px solid rgba(8, 75, 109, 0.08);
     border-bottom: 1px solid rgba(8, 75, 109, 0.08);
+    background-color: $solidWhite;
     .wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 20px 0;
     }
     input[type=checkbox]{
         opacity: 0;
@@ -38,7 +40,7 @@
 // Slide out nav
 
 .slideOutNav {
-    display: none;
+    background-color: $primary;
 }
 
 // search cart
@@ -47,7 +49,25 @@
     .menuIcon, .bag {
         margin-right: 15px;
     }
+    .menuIcon {
+        background-color: transparent;
+        border: none;
+    }
     .bag {
         display:flex;
     }
+    
+    .counter {
+        display: flex;
+        align-items: center;
+        p{
+        width: 24px;
+        height:24px;
+        background-color: $primary;
+        border-radius: 50%;
+        color: $solidWhite;
+        text-align: center;
+    }
+}
+
 }
