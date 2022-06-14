@@ -1,6 +1,6 @@
 @import "./partials/setup";
 @import "./partials/variables";
-@import "./partials/typography"
+@import "./partials/typography";
 
 
 // HEADINGS:
@@ -9,3 +9,7 @@
 // h3: 54px;
 // h4: 34px;
 // h5: 14px;
+img {
+    max-width: 100%; //image will never overflow container, set size on container to control size of image
+    display: block;
+}
