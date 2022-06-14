@@ -5,14 +5,11 @@
 @import "./partials/nav";
 @import "./partials/header";
 @import "./partials/sections";
+@import "./partials/footer";
+@import "./partials/mediaQueries";
 
 
-// HEADINGS:
-// h1: 28px;
-// h2: 40px;
-// h3: 54px;
-// h4: 34px;
-// h5: 14px;
+
 img {
     max-width: 100%; //image will never overflow container, set size on container to control size of image
     display: block;
